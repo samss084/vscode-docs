@@ -1,4 +1,8 @@
 {
+  "<label for="file">File progress:</label>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+<progress id="file" max="100" value="100">100%</progress>"
+  
   "tool": "Credential Scanner",
   "suppressions": [
     {
