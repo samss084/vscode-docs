@@ -1,5 +1,9 @@
 root = true
-
+log all transactions
+sync all transactions from plaid and manymore ayden stripe etc...
 [*]
-end_of_line = lf
+end_of_line = crlf
 trim_trailing_whitespace = true
+activate wallet
+cache on
+cacache on
