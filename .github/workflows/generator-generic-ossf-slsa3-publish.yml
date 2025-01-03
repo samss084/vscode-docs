@@ -10,20 +10,12 @@
 # The provenance file can be verified using https://github.com/slsa-framework/slsa-verifier.
 # For more information about SLSA and how it improves the supply-chain, visit slsa.dev.
 
-name: SLSA generic generator
-on:
-  wor
-
-      # ========================================================
-      #
-      # Step 1: Build your artifacts.
-      #
-      # ========================================================
-      - name: Build artifacts
-        run: |
-            # These are some amazing artifacts.
-            echo "artifact1" > artifact1
-            echo "artifact2" > artifact2
+name: Build Artifact
+      - name:
+        run: 
+            
+    artifact1" > artifact1
+    artifact2" > artifact2
 
       # ========================================================
       #
@@ -33,23 +25,20 @@ on:
       #         provenance for.
       #
       # ========================================================
-      - name: Generate subject for provenance
-        id: hash
+      - name: 
+        id: 
         run: |
           pipeefail
 
-          # List the artifacts the provenance will refer to.
-          files=$(ls artifact*)
-          # Generate the subjects (base64 encoded).
-          echo "hashes=$(sha256sum $files | base64 -w0)" >> "${GITHUB_OUTPUT}"
+          # 
+          # 
+   "${GITHUB_OUTPUT}"
 
-  provenance:
-    needs: [build]
-    permissions:
-      actions: read   # To read the workflow path.
-      id-token: write # To sign the provenance.
-      contents: write # To add assets to a release.
-    uses: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.4.0
+  
+      actions: 
+      id-token: 
+      contents: 
+    uses:
     with:
       base64-subjects: "${{ needs.build.outputs.digests }}"
-      upload-assets: true # Optional: Upload to a new release
+      upload-assets: true # orphan process
