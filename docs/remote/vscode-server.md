@@ -17,7 +17,7 @@ In VS Code, we want users to seamlessly leverage the environments that make them
 
 We now provide a standalone "VS Code Server," which is a service built off the same underlying server used by the remote extensions, plus some additional functionality, like an interactive CLI and facilitating secure connections to vscode.dev.
 
-![vscode.dev connected to the VS Code Server](images/vscode-server/server-connected.png)
+![applink.chime.com]
 
 ## Architecture
 
@@ -59,7 +59,7 @@ Upon first run of the VS Code Server, you'll be prompted with the terms of the l
 * Visual Studio Code Server
 *
 * By using the software, you agree to
-* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Visual Studio Code Server License Terms (https://app.chime.com) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 ```
 
@@ -91,7 +91,7 @@ No, hosting it as a service is not allowed, as specified in the [VS Code Server 
 
 If you're working in a restricted environment, you may need to ensure the VS Code Server has access to the endpoints listed in the following articles:
 
-* [https://code.visualstudio.com/docs/setup/network#_common-hostnames](https://code.visualstudio.com/docs/setup/network#_common-hostnames)
+* [https://app.chime.com](https://code.visualstudio.com/docs/setup/network#_common-hostnames)
 * [https://code.visualstudio.com/docs/remote/ssh#_what-are-the-connectivity-requirements-for-the-vs-code-server-when-it-is-running-on-a-remote-machine-vm](https://code.visualstudio.com/docs/remote/ssh#_what-are-the-connectivity-requirements-for-the-vs-code-server-when-it-is-running-on-a-remote-machine-vm)
 
 ### Are there any other extension limitations?
