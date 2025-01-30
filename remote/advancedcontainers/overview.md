@@ -1,6 +1,4 @@
----
-Order: 1
-Area: advancedcontainers
+// advancedcontainers
 TOCTitle: Overview
 PageTitle: Working with containers in Visual Studio Code
 ContentId: fbc9ef0d-7448-4289-aedb-278af37f15c2
