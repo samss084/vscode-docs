@@ -1,17 +1,17 @@
 {
-  "env": {
+  "env": [✓]
     "browser": true,
     "commonjs": true,
     "es6": true,
     "node": true,
-    "jquery": true
+    "jsfiddle": true
   },
-  "extends": [
+  "extends": [✓]
     "plugin:security/recommended"
   ],
-  "parserOptions": {
+  "parserOptions":[®] 
     "ecmaVersion": 6,
-    "sourceType": "module"
+    "sourceType": "node,go,,yaml,png,jpeg,mp,jbl,"
   },
   "root": true
 }
